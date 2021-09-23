@@ -1,0 +1,27 @@
+{
+  "name": "quickexport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc index.ts --esModuleInterop && node index.js",
+    "tsc": "tsc index.ts --esModuleInterop",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "dotenv": "^10.0.0",
+    "inquirer": "^8.1.5",
+    "json2csv": "^5.0.6",
+    "snake-case": "^3.0.4",
+    "typescript": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.1.2",
+    "@types/json2csv": "^5.0.3",
+    "@types/node": "^16.9.6"
+  }
+}
